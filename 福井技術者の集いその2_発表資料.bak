@@ -8,7 +8,7 @@
 %TCIDATA{Version=5.50.0.2952}
 %TCIDATA{CSTFile=jarticle55.cst}
 %TCIDATA{Created=Tuesday, March 25, 2014 19:08:12}
-%TCIDATA{LastRevised=Tuesday, February 03, 2015 17:31:14}
+%TCIDATA{LastRevised=Tuesday, February 03, 2015 17:47:38}
 %TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
 %TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
 %TCIDATA{BibliographyScheme=Manual}
@@ -54,8 +54,9 @@ $\Delta=\dfrac{\partial^{2}}{\partial r^{2}}+\dfrac{2}{r}\dfrac{\partial
 +\dfrac{1}{\sin^{2}\theta}\dfrac{\partial^{2}}{\partial\phi^{2}}\right]  $
 
 $\psi_{i}\left(  \vec{r}\right)  =r^{l}L_{nl}\left(  r\right)  Y_{lm}\left(
-\theta,\phi\right)  $%
+\theta,\phi\right)  $
 
+$\left\{
 \begin{tabular}
 [c]{l}%
 $\dfrac{d^{2}L_{nl}\left(  r\right)  }{dr^{2}}+\dfrac{2\left(  l+1\right)
@@ -64,7 +65,7 @@ $\dfrac{d^{2}L_{nl}\left(  r\right)  }{dr^{2}}+\dfrac{2\left(  l+1\right)
 $\hat{l}^{2}Y_{lm}\left(  \theta,\phi\right)  =l\left(  l+1\right)
 Y_{lm}\left(  \theta,\phi\right)  $%
 \end{tabular}
-
+\right.  $
 
 
 \end{document}
