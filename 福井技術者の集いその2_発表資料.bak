@@ -8,7 +8,7 @@
 %TCIDATA{Version=5.50.0.2952}
 %TCIDATA{CSTFile=jarticle55.cst}
 %TCIDATA{Created=Tuesday, March 25, 2014 19:08:12}
-%TCIDATA{LastRevised=Tuesday, February 03, 2015 17:47:38}
+%TCIDATA{LastRevised=Sunday, February 08, 2015 18:57:57}
 %TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
 %TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
 %TCIDATA{BibliographyScheme=Manual}
@@ -65,7 +65,89 @@ $\dfrac{d^{2}L_{nl}\left(  r\right)  }{dr^{2}}+\dfrac{2\left(  l+1\right)
 $\hat{l}^{2}Y_{lm}\left(  \theta,\phi\right)  =l\left(  l+1\right)
 Y_{lm}\left(  \theta,\phi\right)  $%
 \end{tabular}
-\right.  $
+\ \right.  $
+
+$\dfrac{d^{2}L_{nl}\left(  r\right)  }{dr^{2}}+\dfrac{2\left(  l+1\right)
+}{r}\dfrac{dL_{nl}\left(  r\right)  }{dr}=2\left[  V\left(  r\right)
+-E\right]  L_{nl}\left(  r\right)  $%
+
+\begin{tabular}
+[c]{ll}%
+$V\left(  r\right)  =%
+%TCIMACRO{\dsum \limits_{n=0}^{\infty}}%
+%BeginExpansion
+{\displaystyle\sum\limits_{n=0}^{\infty}}
+%EndExpansion
+a_{n}r^{n}$ & $L_{nl}\left(  r\right)  =%
+%TCIMACRO{\dsum \limits_{m=0}^{\infty}}%
+%BeginExpansion
+{\displaystyle\sum\limits_{m=0}^{\infty}}
+%EndExpansion
+b_{m}r^{m}$%
+\end{tabular}
+%
+
+\begin{tabular}
+[c]{ll}%
+$\dfrac{dL_{nl}\left(  r\right)  }{dr}=%
+%TCIMACRO{\dsum \limits_{m=1}^{\infty}}%
+%BeginExpansion
+{\displaystyle\sum\limits_{m=1}^{\infty}}
+%EndExpansion
+mb_{m}r^{m-1}$ & $\dfrac{d^{2}L_{nl}\left(  r\right)  }{dr^{2}}=%
+%TCIMACRO{\dsum \limits_{m=2}^{\infty}}%
+%BeginExpansion
+{\displaystyle\sum\limits_{m=2}^{\infty}}
+%EndExpansion
+m\left(  m-1\right)  b_{m}r^{m-2}$%
+\end{tabular}
+
+
+$%
+%TCIMACRO{\dsum \limits_{m=0}^{\infty}}%
+%BeginExpansion
+{\displaystyle\sum\limits_{m=0}^{\infty}}
+%EndExpansion
+\left[  m\left(  m-1\right)  +2\left(  l+1\right)  \right]  b_{m}r^{m-2}$
+
+$2%
+%TCIMACRO{\dsum \limits_{n=0}^{\infty}}%
+%BeginExpansion
+{\displaystyle\sum\limits_{n=0}^{\infty}}
+%EndExpansion%
+%TCIMACRO{\dsum \limits_{m=0}^{\infty}}%
+%BeginExpansion
+{\displaystyle\sum\limits_{m=0}^{\infty}}
+%EndExpansion
+a_{m}b_{m}r^{n+m}-2E%
+%TCIMACRO{\dsum \limits_{m=0}^{\infty}}%
+%BeginExpansion
+{\displaystyle\sum\limits_{m=0}^{\infty}}
+%EndExpansion
+b_{m}r^{m}$
+
+%
+
+\begin{tabular}
+[c]{l}%
+$b_{0}=arbitary$\\
+$b_{1}=0$\\
+$b_{2}=\dfrac{\left(  a_{0}-E\right)  b_{0}}{2l+3}$\\
+$b_{3}=\dfrac{a_{1}b_{0}}{3l+6}$\\
+$b_{4}=\dfrac{a_{0}b_{2}+a_{2}b_{0}-Eb_{2}}{4l+10}$%
+\end{tabular}
+
+
+$%
+\begin{tabular}
+[c]{ll}
+& \\
+$r^{-1}$ & \\
+$r^{0}$ & \\
+$r$ & \\
+$r^{2}$ &
+\end{tabular}
+$
 
 
 \end{document}
