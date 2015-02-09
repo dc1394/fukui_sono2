@@ -8,7 +8,7 @@
 %TCIDATA{Version=5.50.0.2952}
 %TCIDATA{CSTFile=jarticle55.cst}
 %TCIDATA{Created=Tuesday, February 03, 2015 16:59:57}
-%TCIDATA{LastRevised=Friday, February 06, 2015 10:01:58}
+%TCIDATA{LastRevised=Monday, February 09, 2015 21:35:14}
 %TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
 %TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
 %TCIDATA{BibliographyScheme=Manual}
@@ -74,8 +74,10 @@ r\right)  }{\partial r}Y_{lm}\left(  \theta,\phi\right)  $
 $\dfrac{2}{r}\left[  lr^{l-1}L_{nl}\left(  r\right)  Y_{lm}\left(  \theta
 ,\phi\right)  +r^{l}\dfrac{\partial L_{nl}\left(  r\right)  }{\partial
 r}Y_{lm}\left(  \theta,\phi\right)  \right]  =2lr^{l-2}L_{nl}\left(  r\right)
-Y_{lm}\left(  \theta,\phi\right)  +2r^{l-1}\dfrac{\partial L_{nl}\left(
-r\right)  }{\partial r}Y_{lm}\left(  \theta,\phi\right)  $
+Y_{lm}\left(  \theta,\phi\right)  +$
+
+$2r^{l-1}\dfrac{\partial L_{nl}\left(  r\right)  }{\partial r}Y_{lm}\left(
+\theta,\phi\right)  $
 
 $\dfrac{\partial^{2}}{\partial r^{2}}\left[  r^{l}L_{nl}\left(  r\right)
 Y_{lm}\left(  \theta,\phi\right)  \right]  =$
@@ -127,8 +129,9 @@ L_{nl}\left(  r\right)  }{\partial r}Y_{lm}\left(  \theta,\phi\right)
 $r^{l-2}L_{nl}\left(  r\right)  \left\{  \left[  \dfrac{1}{\sin\theta}%
 \dfrac{\partial}{\partial\theta}\left(  \sin\theta\dfrac{\partial}%
 {\partial\theta}\right)  +\dfrac{1}{\sin^{2}\theta}\dfrac{\partial^{2}%
-}{\partial\phi^{2}}\right]  Y_{lm}\left(  \theta,\phi\right)  \right\}
-=2\left[  V\left(  r\right)  -E\right]  r^{l}L_{nl}\left(  r\right)
+}{\partial\phi^{2}}\right]  Y_{lm}\left(  \theta,\phi\right)  \right\}  =$
+
+$2\left[  V\left(  r\right)  -E\right]  r^{l}L_{nl}\left(  r\right)
 Y_{lm}\left(  \theta,\phi\right)  $
 
 $\dfrac{1}{L_{nl}\left(  r\right)  }\left[  \dfrac{\partial^{2}L_{nl}\left(
@@ -182,6 +185,4 @@ $\hat{l}^{2}Y_{lm}\left(  \theta,\phi\right)  =l\left(  l+1\right)
 Y_{lm}\left(  \theta,\phi\right)  $%
 \end{tabular}
 \ \right.  $
-
-
 \end{document}
