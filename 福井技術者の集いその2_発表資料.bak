@@ -8,7 +8,7 @@
 %TCIDATA{Version=5.50.0.2952}
 %TCIDATA{CSTFile=jarticle55.cst}
 %TCIDATA{Created=Tuesday, March 25, 2014 19:08:12}
-%TCIDATA{LastRevised=Monday, February 09, 2015 21:12:26}
+%TCIDATA{LastRevised=Tuesday, February 10, 2015 17:21:16}
 %TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
 %TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
 %TCIDATA{BibliographyScheme=Manual}
@@ -87,9 +87,9 @@ $\left\{
 [c]{l}%
 $\dfrac{dL_{nl}\left(  x\right)  }{dx}=M\left(  x\right)  $\\
 $\dfrac{dM\left(  x\right)  }{dx}=-\left(  2l+1\right)  M\left(  x\right)
-+2r^{2}\left[  V\left(  r\right)  -E\right]  L_{nl}\left(  x\right)  $%
++2e^{2x}\left[  V\left(  r\right)  -E\right]  L_{nl}\left(  x\right)  $%
 \end{tabular}
-\right.  $%
+\ \right.  $%
 
 \begin{tabular}
 [c]{ll}%
@@ -182,11 +182,11 @@ V\left(  r_{2}\right)
 $%
 \begin{tabular}
 [c]{l}%
-$L_{nl}\left(  x_{0}\right)  =\left\{  \left\{  \left[  \left(  b_{4}%
-e^{x}+b_{3}\right)  e^{x}\right]  +b_{2}\right\}  e^{x}+b_{1}\right\}
-e^{x}+b_{0}$\\
-$M\left(  x_{0}\right)  =\left\{  \left[  \left(  4b_{4}e^{x}+3b_{3}\right)
-e^{x}+2b_{2}\right]  e^{x}+b_{1}\right\}  e^{x}$%
+$L_{nl}\left(  x_{0}\right)  =\left\{  \left\{  \left[  \left(  b_{4}e^{x_{0}%
+}+b_{3}\right)  e^{x_{0}}\right]  +b_{2}\right\}  e^{x_{0}}+b_{1}\right\}
+e^{x_{0}}+b_{0}$\\
+$M\left(  x_{0}\right)  =\left\{  \left[  \left(  4b_{4}e^{x_{0}}%
++3b_{3}\right)  e^{x_{0}}+2b_{2}\right]  e^{x_{0}}+b_{1}\right\}  e^{x_{0}}$%
 \end{tabular}
 \ $
 
@@ -213,7 +213,37 @@ $M\left(  x_{\max}\right)  =-L_{nl}\left(  x_{\max}\right)  \left\{
 \end{tabular}
 
 
+$\dfrac{L_{nl,O}\left(  x_{MP}\right)  }{L_{nl,I}\left(  x_{MP}\right)
+}=\dfrac{M_{O}\left(  x_{MP}\right)  }{M_{I}\left(  x_{MP}\right)  }$%
 
+\begin{tabular}
+[c]{ll}%
+$\Delta D\left(  E\right)  =M_{O}\left(  x_{MP}\right)  -\alpha M_{I}\left(
+x_{MP}\right)  ,$ & $\alpha=\dfrac{L_{nl,O}\left(  x_{MP}\right)  }%
+{L_{nl,I}\left(  x_{MP}\right)  }$%
+\end{tabular}
+
+
+$L_{nl}\left(  x\right)  =\left\{
+\begin{tabular}
+[c]{ll}%
+$L_{nl,O}\left(  x\right)  $ & $\left(  x\leq x_{MP}\right)  $\\
+$\dfrac{L_{nl,O}\left(  x_{MP}\right)  }{L_{nl,I}\left(  x_{MP}\right)
+}L_{nl,I}\left(  x\right)  $ & $\left(  x>x_{MP}\right)  $%
+\end{tabular}
+\right.  $
+
+$P_{nl}\left(  x\right)  =\exp\left[  \left(  l+1\right)  x\right]
+L_{nl}\left(  x\right)  $
+
+$N=%
+%TCIMACRO{\dint _{x\min}^{x\max}}%
+%BeginExpansion
+{\displaystyle\int_{x\min}^{x\max}}
+%EndExpansion
+\left[  P_{nl}\left(  x\right)  \right]  ^{2}\exp\left(  x\right)  dx$
+
+$L_{nl}\left(  x\right)  \colon=\dfrac{1}{\sqrt{N}}L_{nl}\left(  x\right)  $
 
 
 \end{document}
