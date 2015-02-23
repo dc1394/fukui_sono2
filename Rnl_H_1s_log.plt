@@ -10,8 +10,8 @@
 #    	gnuplot home:     http://www.gnuplot.info
 #    	faq, bugs, etc:   type "help FAQ"
 #    	immediate help:   type "help"  (plot window: hit 'h')
-# set terminal png nocrop enhanced size 640,480 font "arial,12" 
-# set output 'Rnl_H_1s_log.png'
+# set terminal windows 0 color solid butt enhanced
+# set output
 unset clip points
 set clip one
 unset clip two
@@ -112,7 +112,7 @@ unset paxis 4 tics
 unset paxis 5 tics
 unset paxis 6 tics
 unset paxis 7 tics
-set title "Wave function for 1s" 
+set title "Wave function for 1s of H" 
 set title  font "" norotate
 set timestamp bottom 
 set timestamp "" 
